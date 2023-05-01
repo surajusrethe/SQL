@@ -1,0 +1,47 @@
+/*
+
+DISTICT : The DISTINCT keyword is used in SQL to retrieve unique/distinct values from a specific column or set of columns in a table.
+
+          mysql> SELECT DISTINCT dept FROM EMPLOYEE;
+
+*/
+
+mysql> SELECT * FROM EMPLOYEE;
++-------------+------------+-----------+-------+------+
+| employee_id | first_name | last_name | zone  | DEPT |
++-------------+------------+-----------+-------+------+
+|           1 | John       | Doe       | NULL  | NULL |
+|           2 | RAM        | SHARMA    | NORTH |    2 |
+|           3 | MIKKA      | SINGH     | NORTH |    2 |
+|          12 | GOPAL      | VERMA     | EAST  |    8 |
+|           5 | RANVEER    | KAPOOR    | SOUTH |    7 |
++-------------+------------+-----------+-------+------+
+
+
+
+mysql> SELECT DEPT FROM EMPLOYEE;
++------+
+| DEPT |
++------+
+| NULL |
+|    2 |
+|    2 |
+|    8 |
+|    7 |
++------+
+
+
+
+
+mysql> SELECT DISTINCT dept FROM EMPLOYEE;
++------+
+| dept |
++------+
+| NULL |
+|    2 |
+|    8 |
+|    7 |
++------+
+
+
+
