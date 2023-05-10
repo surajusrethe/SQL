@@ -41,3 +41,5 @@ mysql> SELECT AGE AS age_of_employee
 | David      |   40 |    75000 |
 | Mary       |   35 |    65000 |
 +------------+------+----------+
+
+done
