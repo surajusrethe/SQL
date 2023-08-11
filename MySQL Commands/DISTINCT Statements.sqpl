@@ -30,7 +30,7 @@ mysql> SELECT DEPT FROM EMPLOYEE;
 |    7 |
 +------+
 
-
+.................................................
 
 
 mysql> SELECT DISTINCT dept FROM EMPLOYEE;
